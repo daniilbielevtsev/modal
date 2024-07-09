@@ -3,9 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/modal.css" />
+    <link rel="stylesheet" href="./src/css/dialog.css" />
     <title>modal</title>
   </head>
-  <body></body>
+  <body>
+    <!--1 спосіб-->
+    <button class="bnt-open btn" data-modal-open>open</button>
+    <div class="backdrob is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn-clode btn" data-modal-colse>colse</button>
+        <p>...</p>
+      </div>
+    </div>
+    <!-- спосіб-1 -->
+    <button class="bnt-open btn" data-dialog-open>open-dialog-window</button>
+    <dialog class="dialoc" data-dialog>
+      <button class="btn-clode btn" data-dialog-colse>
+        colse-dialog-window
+      </button>
+      <p>...</p>
+    </dialog>
+    <script src="./src/js/modal.js"></script>
+    <script src="./src/js/dialog.js"></script>
+  </body>
 </html>

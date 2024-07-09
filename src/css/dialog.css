@@ -1,0 +1,31 @@
+body {
+  width: 200vh;
+}
+.btn {
+  padding: 10px 15px;
+  border: 2px solid grey;
+  color: gray;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.dialoc::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dialoc {
+  background-color: rgb(102, 186, 255);
+  border-radius: 4px;
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn-clode {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.no-skroll {
+  overflow: hidden;
+}
